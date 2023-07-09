@@ -1,0 +1,166 @@
+@import url('https://fonts.google.com/css2?family=Poopins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+html{
+    font-size:10px;
+}
+li {
+    list-style: none;    
+}
+a{
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 1.9rem;
+}
+p{
+    font-size: 1.2rem;
+}
+
+header {
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(219, 115, 176);
+    position: fixed;
+    top:0;
+    z-index: 333;
+}
+
+.mobile-nav{
+    display: none;
+}
+
+
+.container {
+    width: 96%;
+    max-width: 117rem;
+    margin:0 auto;
+}
+
+.navbar{
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 1.5rem;
+}
+
+.navbar h1{
+    text-transform: uppercase;
+    color: blue;
+    font-weight: 600;
+    letter-spacing: px;
+    cursor:pointer;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul a{
+    font-size: 1.2rem;
+    padding: 1.5rem;
+    text-transform: uppercase;
+    color: green;
+    font-weight: 400;
+    letter-spacing: 2px;
+    transition: all 0.4s ease;
+}
+
+.navbar ul a:hover{
+    color:white;
+    background-color: orange;
+}
+
+.navbar .menu{
+    display: none; 
+}
+
+
+@media (max-width:768px){
+    main{
+        padding: 0;
+        margin: 0;        
+    }
+    
+    .navbar ul {
+        display: none;
+    }
+
+    .navbar .menu{
+        display: block;
+        cursor: pointer;
+    }
+
+    .mobile-nav{
+        background-color: rgb(219, 115, 176);
+    }
+
+    .mobile-nav ul a{
+        display: inline-block;
+        padding: 1rem;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        width: 100%px;
+        color: #5b5963;
+        transition: all 0.4s ease;
+    }
+
+    .mobile-nav ul a:hover{
+        color: white;
+        background-color: #fd735a;
+    }
+
+    .mobile-nav.active{
+        display: block;
+    }
+
+    .navbar .menu i{
+        font-size: 2.5rem;
+
+    }
+
+    .cards{
+        flex-direction: column;
+    }
+}
+
+
+.text {
+    width: 100%;
+    max-width: 80rem;
+    background-color: rgb(205, 231, 56);
+    margin:0 auto;
+    padding: 3rem;
+    border-radius:1.5rem;
+    margin-top: -13rem;
+}
+
+.text h1{
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    position: top;
+}
+
+.text p {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    max-width: 30rem;
+    height: 40rem;
+    background: url(../images/cute-buddha.png) no-repeat center center / cover;
+    margin: 5rem auto;
+}

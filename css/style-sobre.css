@@ -138,7 +138,7 @@ header {
 
 .text {
     width: 100%;
-    max-width: 80rem;
+    max-width: 100rem;
     background-color: rgb(255, 255, 255);
     margin:0 auto;
     padding: 3rem;

@@ -34,6 +34,14 @@ header {
     z-index: 333;
 }
 
+.logo{
+    width: 200px;
+    height: 200px;
+    float: left;
+    background: url(../images/dana-logo.png) center left/140px no-repeat;
+}
+
+
 .mobile-nav{
     display: none;
 }

@@ -325,7 +325,7 @@ header {
     }
 }
 
-@media (max-width:567px){
+@media (max-width:768px){
     .leitura-artigo h5{
         font-size: 6rem;
     }
@@ -385,7 +385,7 @@ footer {
 /***FOOTER RESPONSIVO***/
 
 
-@media (min-width:200px) {
+@media (min-width:768px) {
     .footerNav ul {
         display: flex;
         flex-wrap: wrap;

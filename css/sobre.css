@@ -111,12 +111,16 @@ main {
 }
 
 
-@media (max-width:768px){
-    main{
+@media screen and (max-width:840px) and (min-width:320px){
+    body, html{
+        width: 100%;
+        height: 100%;
         padding: 0;
-        margin: 0;        
+        margin: 0;    
+        overflow-x: hidden;    
     }
     
+
     .navbar ul {
         display: none;
     }
@@ -154,31 +158,29 @@ main {
 
     }
 
-    .cards{
-        flex-direction: column;
+    .text p {
+        font-size: 1000px;
     }
+
+
 }
 
-@media (max-width:567px){
-    .leitura-artigo h5{
-        font-size: 6rem;
-    }
-}
+
 
 .resizable {
     justify-content: center;
-    border-radius: 100em;
+    border-radius: 110em;
     max-height: 100%;
 }
 
 
 .text {
     width: 100%;
-    height: 30%;
+    height: 60em;
     background-color: rgb(255, 255, 255);
     margin:0 auto;
     padding: 1rem;
-    margin-top: -13rem;
+    margin-top: -5rem;
     text-align: center;
 }
 
@@ -201,6 +203,7 @@ main {
     background: url(../images/cute-buddha.png) no-repeat center center / cover;
     margin: 7rem auto;
 }
+
 
 
 footer {
@@ -251,7 +254,7 @@ footer {
 /***FOOTER RESPONSIVO***/
 
 
-@media (min-width:200px) {
+@media screen and (max-width:840px) and (min-width:320px) {
     .footerNav ul {
         display: flex;
         flex-wrap: wrap;

@@ -286,7 +286,7 @@ main .content h4{
 }
 
 main .content .content-img-container{
-    width: 80vh;
+    width: 65vh;
     height: 350px;
     background: url(../images/image4.png) no-repeat center center / cover;
     margin: auto;
